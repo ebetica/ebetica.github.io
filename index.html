@@ -14,6 +14,10 @@ title: Welcome
   </h1>
   <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
   {{ post.content }}
+
+  <span>
+  <a href="{{ site.path }}{{ post.url }}#comments">Comments</a>
+  </span>
 </article>
 
 {% endfor %}
