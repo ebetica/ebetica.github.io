@@ -1,7 +1,8 @@
 ###########
 # site.title, site.url, site.author.name
 
-title:  'The Subgradient'
+title: 'The Subgradient'
+subtitle: 'Because life is continuous and differentiable almost everywhere'
 author: 'Zeming Lin'
 name: 'Zeming Lin'
 
