@@ -13,11 +13,11 @@ title: Welcome
     </a>
   </h1>
   <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
-  {{ post.content | truncatewords:300}}
-
-  <span>
-  <a href="{{ site.path }}{{ post.url }}">Read more...</a>
-  </span>
+  {{ post.content | split:'<!--preview-->' | first }}
+	
+	{% if post.content contains '<!--preview-->' %}
+		<span><a href="{{ site.path }}{{ post.url }}">Read more...</a></span>
+	{% endif %}
 </article>
 
 {% endfor %}
