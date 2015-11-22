@@ -25,7 +25,7 @@ that was first published in 1886. The work is commonly known today as
 It is about a London lawyer named Gabriel John Utterson
 who investigates strange occurrences between
 his old friend, Dr. Henry Jekyll, and the evil Edward Hyde.
-
+<!--preview-->
 The work is commonly associated with the rare mental condition often called
 "split personality", referred to in psychiatry as dissociative identity disorder,
 where within the same body there exists more than one distinct personality.
