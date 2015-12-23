@@ -143,6 +143,14 @@ img {
   border-radius: 5px;
 }
 
+// Captions
+img + em { 
+  font-size:75%;
+}
+
+.center {
+  text-align: center;
+}
 
 //////////////////////
 // Tables
@@ -238,4 +246,15 @@ table {
 
 .post-date {
   color: $post-date-color;  
+}
+
+//////////////////////////
+// Positions
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
 }
