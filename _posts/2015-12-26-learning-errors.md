@@ -38,7 +38,7 @@ errors of the previous learner at each iteration?
 
 {% include mathjax.html %}
 
-My long stretch observation is that if you squint your eyes hard enough at batch normalization,
+My long stretch observation is that if you squint your eyes hard enough at [Batch Normalization](http://arxiv.org/abs/1502.03167),
 it kind of looks like it's predicting the errors of a Taylor Expansion at each time step.
 A Taylor polynomiala kind of looks like
 
