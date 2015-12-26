@@ -49,7 +49,8 @@ where you could linearize the residuals by doing
 $$\frac{f(x) - a_0}{x}$$
 
 and if you squint really hard it kind of looks like what Batch Normalization is
-doing.
+doing. Maybe something more to look at would be to force a network structure that
+actually does this explicitly.
 
 Residual learning seems like a really good direction to pursue deep learning models;
 I bet there will be a few more models that look into this topic.
